@@ -312,3 +312,231 @@ input{
 input:hover{
     transform: scale(1.1);
 }
+
+/* .logo {
+    height: 53px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+} */
+
+.order {
+    height: auto;/* height: 681px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #817070;
+}
+
+.client {
+    height: 170px;/* height: 225px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name,
+#surname {
+    margin-right: 64px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 55px;
+    border: 3px solid #FFFFFF;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #817070;
+}
+
+#name::placeholder,
+#surname::placeholder {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.drinks {
+    width: 298px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.desserts {
+    margin-left: 132px;
+    width: 354px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_position {
+    margin-bottom: 17px;
+    width: 100%;
+    height: 55px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check_position {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+input[type="checkbox"]+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+input[type="checkbox"]+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 4px solid #f8e9e3;
+    margin-right: 16px;
+    background-color: #817070;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+input[type="checkbox"]:checked+label::before {
+    background-color: #604444;   
+}
+
+.label_p, .label_span_value {
+    height: 30px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+input[name="counter"] {
+    box-sizing: border-box;
+    width: 100px;/* width: 130px; */
+    height: 55px;
+    border: 3px solid #FFFFFF;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #817070;
+}
+
+input[name="counter"]::placeholder {
+    height: 30px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.sum {
+    margin-top: 20px;/* margin-top: 26px; */
+    height: 30px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    margin-top: 20px;/* margin-top: 26px; */
+    margin-bottom: 28px;
+    box-sizing: border-box;
+    width: 190px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_text {
+    width: 149px;
+    height: 30px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #817070;
+}

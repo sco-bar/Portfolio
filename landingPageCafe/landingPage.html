@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee House</title>
     <link rel="stylesheet" href="landing.css">
+    <script src="landing.js"></script>
 </head>
 <body>
     <header class="header">
@@ -70,6 +71,92 @@
             </div>
 
         </div>
+        <section class="order">
+
+            <div class="client">
+                <input id="surname" type="text" name="surname" placeholder="Введите Фамилию">
+                <input id="name" type="text" name="name" placeholder="Введите Имя">
+            </div>
+    
+            <div class="menu">
+    
+                <div class="drinks">
+    
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber1" type="checkbox" name="position" value="80" data-counter_id="counter1">
+                            <label for="positionNumber1"><p class="label_p">Эспрессо <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter1" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber1">
+                    </div>
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber2" type="checkbox" name="position" value="110" data-counter_id="counter2">
+                            <label for="positionNumber2"><p class="label_p">Латте <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter2" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber2">
+                    </div>
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber3" type="checkbox" name="position" value="120" data-counter_id="counter3">
+                            <label for="positionNumber3"><p class="label_p">Капучино <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter3" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber3">
+                    </div>
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber4" type="checkbox" name="position" value="90" data-counter_id="counter4">
+                            <label for="positionNumber4"><p class="label_p">Американо <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter4" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber4">
+                    </div>
+    
+                </div>
+    
+                <div class="desserts">
+    
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber5" type="checkbox" name="position" value="80" data-counter_id="counter5">
+                            <label for="positionNumber5"><p class="label_p">Шоколадный кекс <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter5" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber5">
+                    </div>
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber6" type="checkbox" name="position" value="90" data-counter_id="counter6">
+                            <label for="positionNumber6"><p class="label_p">Черничный кекс <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter6" type="text" name="counter" placeholder="0" value="0"  data-position_id="positionNumber6">
+                    </div>
+                    <div class="menu_position">
+                        <div class="check_position">
+                            <input id="positionNumber7" type="checkbox" name="position" value="100" data-counter_id="counter7">
+                            <label for="positionNumber7"><p class="label_p">Яблочный тарт <span class="label_span_value"></span>р.</p></label>
+                        </div>
+    
+                        <input id="counter7" type="text" name="counter" placeholder="0" value="0" data-position_id="positionNumber7">
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="sum">
+                <p>Итого: <span class="result">0</span>p.</p>
+            </div>
+    
+            <button class="btn">
+                <p class="btn_text">Оформить заказ</p>
+            </button>
+    
+        </section>
         <div class="contact" id="subscribe">
             <a href="" class="subsrcibe">SUBSCRIBE</a>
             <div class="email">enter your email</div>
