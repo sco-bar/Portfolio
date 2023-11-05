@@ -7,6 +7,16 @@ body{
     background-color: black;
 }
 
+.name{
+    margin-left: 38em;
+    padding-top: 8em;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
 .bg-animation {
     position: fixed;
     top: 0;
@@ -73,4 +83,3 @@ body{
 .titile2{
     color: beige;
 }
-
